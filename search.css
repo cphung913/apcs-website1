@@ -1,0 +1,11 @@
+* {
+
+}
+
+body {
+    margin: 0;
+    background-color: ivory;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
