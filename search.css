@@ -1,11 +1,41 @@
 * {
-
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    height: 100vh;
     background-color: ivory;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.search {
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+
+.search .btn {
+    position: absolute;
+    top: 0;
+    left: 180;
+    background-color: white;
+    border: 0;
+    height: 50px;
+    width: 50px;
+}
+
+.search .input {
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    padding: 15px;
+}
+
+.search .input:focus {
+    
 }
