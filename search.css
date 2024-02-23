@@ -20,7 +20,7 @@ body {
 .search .btn {
     position: absolute;
     top: 0;
-    left: 50;
+    left: %50;
     background-color: white;
     border: 0;
     height: 50px;
