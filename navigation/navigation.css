@@ -97,6 +97,7 @@ nav a {
 
 nav.active {
     background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 nav.active a {
@@ -105,4 +106,9 @@ nav.active a {
 
 nav.active .container {
     padding: 10px 5px;
+}
+
+nav a.current, nav a:hover {
+    color: #c0392b;
+    font-weight: bold;
 }
