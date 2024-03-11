@@ -131,7 +131,14 @@ button, input[type="submit"] {
 
 }
 
-
+@keyframes modalOpen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 .modal-header {
     background-color: var(--primary-color);
