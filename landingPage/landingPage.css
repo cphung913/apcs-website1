@@ -126,7 +126,12 @@ button, input[type="submit"] {
     max-width: 400px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    animation-name: modalOpen;
+    animation-duration: 1s;
+
 }
+
+
 
 .modal-header {
     background-color: var(--primary-color);
