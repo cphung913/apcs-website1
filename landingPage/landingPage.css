@@ -165,3 +165,7 @@ button, input[type="submit"] {
     background: transparent;
     font-size: 25px;
 }
+
+body.show-nav {
+    transform: translateX(200px);
+}
