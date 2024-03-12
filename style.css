@@ -45,5 +45,5 @@ a {
     max-width: 200px;
     max-height: 200px;
     padding: 100px;
-    border: ;
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
