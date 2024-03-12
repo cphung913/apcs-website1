@@ -6,4 +6,7 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+    margin: 30px;
+    font-size: 30px;
+    color: white;
 }
