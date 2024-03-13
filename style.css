@@ -51,7 +51,20 @@ body {
 
 .box {
     width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    border: 1px solid grey;
+}
+
+.box a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.box img {
+    
 }
