@@ -6,3 +6,10 @@ button.addEventListener('click', () => {
     content.classList.add('active');
     overlay.classList.add('active');
 });
+
+window.addEventListener('click', (e) => {
+    if (e.target == overlay) {
+        overlay.classList.remove('active');
+        content.classList.remove('active');
+    }
+});
