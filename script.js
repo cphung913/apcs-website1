@@ -1,5 +1,5 @@
 const button = document.getElementById('open');
-const content = document.querySelecotr('.content');
+const content = document.querySelector('.content');
 const overlay = document.getElementById('overlay');
 
 button.addEventListener('click', () => {
