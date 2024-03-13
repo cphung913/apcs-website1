@@ -25,6 +25,11 @@ header * {
 
 header h1 {
     margin-bottom: 8px;
+    font-size: 2.5rem;
+}
+
+header p {
+    letter-spacing: 1px;
 }
 
 body {
