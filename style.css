@@ -19,5 +19,6 @@ body {
     position: absolute;
     top: 0;
     display: grid;
-    grid: ;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
 }
