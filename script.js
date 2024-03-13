@@ -17,6 +17,7 @@ window.addEventListener('click', (e) => {
 
 boxes.forEach(box => {
     box.addEventListener('click', () => {
+        console.log(this);
         window.location = this.dataset.link;
     })
 });
