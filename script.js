@@ -1,6 +1,7 @@
 const button = document.getElementById('open');
 const content = document.querySelector('.content');
 const overlay = document.getElementById('overlay');
+const boxes = document.querySelectorAll('.box');
 
 button.addEventListener('click', () => {
     content.classList.add('active');
@@ -12,4 +13,10 @@ window.addEventListener('click', (e) => {
         overlay.classList.remove('active');
         content.classList.remove('active');
     }
+});
+
+boxes.forEach(box => {
+    box.addEventListener('click', () => {
+        location.href = 
+    })
 });
