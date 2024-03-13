@@ -65,7 +65,7 @@ body {
 }
 
 #overlay.active {
-    opacity: .3;
+    opacity: .4;
     pointer-events: all;
 }
 
@@ -103,6 +103,7 @@ body {
     text-decoration: none;
     color: black;
     font-size: 2rem;
+    text-align: center;
 }
 
 .box img {
